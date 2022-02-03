@@ -19,7 +19,7 @@ class Config {
 				urlPrefix: 'https://unsplash.com/s/photos/'
 			},
 			'a/': {
-				urlPrefix: 'https://amazon.com/s?k='	
+				urlPrefix: 'https://amazon.com/s?k='
 			},
 			'e/': {
 				urlPrefix: 'https://ebay.com/sch/?_nkw='
@@ -28,13 +28,13 @@ class Config {
 				urlPrefix: 'https://youtube.com/results?search_query='
 			},
 			'n/': {
-				urlPrefix: 'https://nhentai.net/g/'	
+				urlPrefix: 'https://nhentai.net/g/'
 			}
 		};
 
 		return quickSearchData;
 	}
-	
+
 
 	getSearchEngines = () => {
 
@@ -69,10 +69,10 @@ class Config {
 		// A list of websites that will be generated and put on the web menu
 		const webSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/',
-				category: 'social'
+				site: 'Gitlab',
+				icon: 'gtlab',
+				url: 'https://gitlab.com/',
+				category: 'development'
 			},
 			{
 				site: 'Github',
