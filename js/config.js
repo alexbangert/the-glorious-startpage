@@ -336,45 +336,20 @@ class Config {
 		// A list of websites that will be generated and put on the dock
 		const dockSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
+				site: 'Gitlab',
+				icon: 'gitlab',
+				url: 'https://gitlab.com/'
 			},
 			{
-				site: 'Github',
-				icon: 'github',
-				url: 'https://github.com/'
+				site: 'carbon',
+				icon: 'carbon',
+				url: 'https://react.carbondesign.com/'
 			},
 			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
+				site: 'Golem',
+				icon: 'golem',
+				url: 'https://www.golem.de/'
 			},
-			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
-			},
-			{
-				site: 'Youtube',
-				icon: 'youtube',
-				url: 'https://youtube.com/'
-			},
-			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
-			},
-			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
 		];
 
 		return dockSites;
