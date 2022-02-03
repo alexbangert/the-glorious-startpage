@@ -69,51 +69,15 @@ class Config {
 		// A list of websites that will be generated and put on the web menu
 		const webSites = [
 			{
-				site: 'Gitlab',
-				icon: 'gtlab',
-				url: 'https://gitlab.com/',
-				category: 'development'
-			},
-			{
 				site: 'Github',
 				icon: 'github',
 				url: 'https://github.com/',
 				category: 'development'
 			},
 			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/',
-				category: 'social'
-			},
-			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/',
-				category: 'social'
-			},
-			{
-				site: 'Youtube',
-				icon: 'youtube',
-				url: 'https://youtube.com/',
-				category: 'media'
-			},
-			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/',
-				category: 'cloud'
-			},
-			{
 				site: 'Twitter',
 				icon: 'twitter',
 				url: 'https://twitter.com/',
-				category: 'social'
-			},
-			{
-				site: 'Instagram',
-				icon: 'instagram',
-				url: 'https://instagram.com/',
 				category: 'social'
 			},
 			{
@@ -135,12 +99,6 @@ class Config {
 				category: 'design'
 			},
 			{
-				site: 'Duckduckgo',
-				icon: 'duckduckgo',
-				url: 'https://duckduckgo.com/',
-				category: 'development'
-			},
-			{
 				site: 'Ecosia',
 				icon: 'ecosia',
 				url: 'https://ecosia.org/',
@@ -155,68 +113,8 @@ class Config {
 			{
 				site: 'Wikipedia',
 				icon: 'wikipedia',
-				url: 'https://wikipedia.org/',
+				url: 'https://de.wikipedia.org/',
 				category: 'information'
-			},
-			{
-				site: 'Unsplash',
-				icon: 'unsplash',
-				url: 'https://unsplash.com/',
-				category: 'design'
-			},
-			{
-				site: 'Twitch',
-				icon: 'twitch',
-				url: 'https://twitch.tv/',
-				category: 'media'
-			},
-			{
-				site: 'Yahoo',
-				icon: 'yahoo',
-				url: 'https://mail.yahoo.com/',
-				category: 'social'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/',
-				category: 'design'
-			},
-			{
-				site: 'Netflix',
-				icon: 'netflix',
-				url: 'https://netflix.com/',
-				category: 'media'
-			},
-			{
-				site: 'Office 365',
-				icon: 'office365',
-				url: 'https://office.com/',
-				category: 'information'
-			},
-			{
-				site: '4chan',
-				icon: '4chan',
-				url: 'https://4chan.org/',
-				category: 'social'
-			},
-			{
-				site: 'Discord',
-				icon: 'discord',
-				url: 'https://discord.com/',
-				category: 'social'
-			},
-			{
-				site: 'Spotify',
-				icon: 'spotify',
-				url: 'https://spotify.com/',
-				category: 'media'
-			},
-			{
-				site: 'Ebay',
-				icon: 'ebay',
-				url: 'https://ebay.com/',
-				category: 'shop'
 			},
 			{
 				site: 'JSFiddle',
@@ -231,46 +129,10 @@ class Config {
 				category: 'information'
 			},
 			{
-				site: 'Figma',
-				icon: 'figma',
-				url: 'https://figma.com/',
-				category: 'design'
-			},
-			{
-				site: 'Stackoverflow',
-				icon: 'stackoverflow',
-				url: 'https://stackoverflow.com/',
-				category: 'development'
-			},
-			{
-				site: 'Stackexchange',
-				icon: 'stackexchange',
-				url: 'https://stackexchange.com/',
-				category: 'development'
-			},
-			{
 				site: 'Superuser',
 				icon: 'superuser',
 				url: 'https://superuser.com/',
 				category: 'development'
-			},
-			{
-				site: 'Calendar',
-				icon: 'calendar',
-				url: 'https://calendar.google.com/',
-				category: 'social'
-			},
-			{
-				site: 'Messenger',
-				icon: 'messenger',
-				url: 'https://messenger.com/',
-				category: 'social'
-			},
-			{
-				site: 'Icons8',
-				icon: 'icons8',
-				url: 'https://icons8.com/',
-				category: 'design'
 			},
 			{
 				site: 'Markdown Cheatsheet',
@@ -291,41 +153,35 @@ class Config {
 				category: 'development'
 			},
 			{
-				site: 'Soundcloud',
-				icon: 'soundcloud',
-				url: 'https://soundcloud.com/',
-				category: 'media'
-			},
-			{
-				site: 'Amazon',
-				icon: 'amazon',
-				url: 'https://amazon.com/',
-				category: 'shop'
-			},
-			{
-				site: 'Flaticon',
-				icon: 'flaticon',
-				url: 'https://flaticon.com/',
-				category: 'design'
-			},
-			{
 				site: 'Wikimedia Commons',
 				icon: 'commons',
 				url: 'https://commons.wikimedia.org/',
 				category: 'design'
 			},
 			{
-				site: 'MEGA',
-				icon: 'mega',
-				url: 'https://mega.nz/',
-				category: 'cloud'
-			},
-			{
 				site: 'MDN Web Docs',
 				icon: 'mdn',
 				url: 'https://developer.mozilla.org/',
 				category: 'development'
-			}
+			},
+			{
+				site: 'carbon',
+				icon: 'carbon',
+				url: 'https://react.carbondesignsystem.com/',
+				category: 'development'
+			},
+			{
+				site: 'Golem',
+				icon: 'golem',
+				url: 'https://www.golem.de/',
+				category: 'social'
+			},
+			{
+				site: 'Heise',
+				icon: 'heise',
+				url: 'https://www.heise.de/',
+				category: 'social'
+			},
 		];
 
 		return webSites;
@@ -343,12 +199,17 @@ class Config {
 			{
 				site: 'carbon',
 				icon: 'carbon',
-				url: 'https://react.carbondesign.com/'
+				url: 'https://react.carbondesignsystem.com/'
 			},
 			{
 				site: 'Golem',
 				icon: 'golem',
 				url: 'https://www.golem.de/'
+			},
+			{
+				site: 'Heise',
+				icon: 'heise',
+				url: 'https://www.heise.de/'
 			},
 		];
 
